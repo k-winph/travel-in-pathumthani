@@ -7,6 +7,7 @@ html, body {
 body {
     display: flex;
     flex-direction: column;
+    font-family: 'Kanit', -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif;
 }
 main {
     flex: 1;
@@ -18,7 +19,8 @@ main {
 }
 header {     
     background: linear-gradient(45deg, #3544ca, #55aee5);     
-    color: #fff;  
+    color: #fff;
+    font-family: 'Kanit', -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif;  
     padding: 5px; 
     display: flex;
     justify-content: space-between;
