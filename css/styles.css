@@ -120,6 +120,31 @@ hr {
     margin: 20px auto;
 }
 
+.image-frame {
+    width: 600px; 
+    height: 360px; 
+    border: 5px solid #43a7ff; 
+    overflow: hidden; 
+    border-radius: 10px; 
+}
+.image-frame img {
+    width: 100%; 
+    height: auto; 
+    object-fit: cover; 
+}  
+.image-frame-smaller{
+    width: 600px; 
+    height: 335px; 
+    border: 5px solid #43a7ff; 
+    overflow: hidden; 
+    border-radius: 10px; 
+}
+.image-frame-smaller img {
+    width: 100%;
+    height: auto; 
+    object-fit: cover; 
+} 
+
 .footer {
     background: linear-gradient(45deg, #3544ca, #55aee5);
     color: white;
