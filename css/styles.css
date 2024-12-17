@@ -154,6 +154,19 @@ hr {
     object-fit: cover; 
 } 
 
+.submit-button{
+    padding: 10px 20px;
+    background-color: #7bdeff;
+    color: #000000;
+    border-radius: 15px;
+    transition: background-color 0.3s, color 0.3s;
+    font-weight: bold;
+}
+.submit-button:hover{
+    background-color: #35b2ff;
+    color: #ffffff;
+}
+
 .container {
     display: flex;
     justify-content: center;
