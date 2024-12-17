@@ -84,6 +84,42 @@ nav .nav-button {
     background-color: #d7d7d7;
     color: #000000;
 }
+.logo {
+    margin-right: 0px; 
+    margin-left: 15px;
+}
+
+a {
+    font-size: 16px;
+}
+.a-smaller {
+    font-size: 14px;
+}
+.a-bigger {
+    font-size: 18px;
+}
+p {
+    text-indent: 50px;
+    font-size: 16px
+}
+.i-bigger{
+    font-size: 30px;
+}
+.link{
+    color: #3544ca;
+}
+.link:hover{
+    color: #ca3535
+}
+
+hr {
+    border: none;
+    height: 1px;
+    background-color: #797979;
+    width: 75%;
+    margin: 20px auto;
+}
+
 .footer {
     background: linear-gradient(45deg, #3544ca, #55aee5);
     color: white;
