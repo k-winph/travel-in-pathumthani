@@ -84,3 +84,11 @@ nav .nav-button {
     background-color: #d7d7d7;
     color: #000000;
 }
+.footer {
+    background: linear-gradient(45deg, #3544ca, #55aee5);
+    color: white;
+    padding: 6px;
+    text-align: center;
+    width: 100%;
+    height: 20px;
+}
