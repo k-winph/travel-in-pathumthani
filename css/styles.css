@@ -1,0 +1,86 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow-x: hidden;
+}
+body {
+    display: flex;
+    flex-direction: column;
+}
+main {
+    flex: 1;
+    background-color: #ffffff;
+    padding: 2rem;
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 40px; 
+}
+header {     
+    background: linear-gradient(45deg, #3544ca, #55aee5);     
+    color: #fff;  
+    padding: 5px; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    gap: 2rem;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    position: relative;
+}  
+
+/* Hamburger Menu */
+nav {
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navigation Menu */
+nav ul {     
+    list-style: none;     
+    display: flex;    
+    align-items: center;
+    gap: 1rem; 
+    margin: 0;
+    padding: 0;
+}  
+nav ul li a {
+    font-weight: bold;
+}
+nav a {     
+    color: #fff;    
+    margin-right: 10px;
+    text-decoration: none;
+}  
+nav a:hover{
+    color: #ffffff;
+    margin-right: 10px; 
+    text-decoration: none;
+}
+nav a.active {     
+    padding: 10px 20px;
+    background-color: #ffffff;
+    color: #000000;
+    border: 5px solid #79f2ff;
+    border-radius: 30px;
+    transition: background-color 0.3s, color 0.3s;
+    font-weight: bold;
+    text-align: center;
+}
+.active:hover {     
+    background-color: #d7d7d7;
+    color: #000000;
+}
+nav .nav-button {
+    padding: 10px 20px;
+    background-color: #ffffff;
+    color: #000000;
+    border-radius: 30px;
+    transition: background-color 0.3s, color 0.3s;
+    font-weight: bold;
+}
+.nav-button:hover {
+    background-color: #d7d7d7;
+    color: #000000;
+}
