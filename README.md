@@ -1,16 +1,16 @@
 # travel-in-pathumthani
 # git command in this project
-git clone https://github.com/k-winph/travel-in-pathumthani.git
-git checkout -b development
-git add .
-git commit -m “init project”
-git checkout -b feature/home-page
-git add .
-git commit -m "เพิ่ม HTML พื้นฐาน"
-git add .
+- git clone https://github.com/k-winph/travel-in-pathumthani.git
+- git checkout -b development
+- git add .
+- git commit -m “init project”
+- git checkout -b feature/home-page
+- git add .
+- git commit -m "เพิ่ม HTML พื้นฐาน"
+- git add .
 - git commit -m "เพิ่มเนื้อหา HTML"
 - git checkout development
-git checkout -b feature/css
+- git checkout -b feature/css
 - git add .
 - git commit -m "เพิ่ม style ส่วน nav"
 - git add .
