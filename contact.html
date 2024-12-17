@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="th">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contact - Travel In Pathum Thani</title>
+        <link rel="stylesheet" href="css/styles.css">
+        <link rel="icon" href="images\TPTicon.ico" type="image/x-icon">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Mitr:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <nav> 
+                <div class="hamburger" id="hamburger">
+                    ☰
+                </div>
+                <ul id="nav-menu">
+                    <li><a href="index.html"><img class="logo" src="images\TPT.png" alt="logo" width="50"></a></li>
+                    <li><a class="nav-button" href="index.html">HOME</a></li>
+                    <li><a class="nav-button" href="attraction.html">Travel</a></li>
+                    <li><a class="nav-button" href="about.html">About</a></li>
+                    <li><a class="active" href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main class="main">
+            <section>
+                <center>
+                    <h1>ส่งข้อความถึงเรา</h1>
+                    <div class="container-contact">
+                        <table>
+                            <form action="/submit" method="POST" role="form" aria-label="แบบฟอร์มติดต่อ">
+                                <tr>
+                                    <td><label for="fullname">ชื่อ-นามสกุล <font color="red">*</font></label></td>
+                                    <td><input class="box"
+                                        type="text"
+                                        id="fullname"
+                                        name="fullname"
+                                        required
+                                        aria-required="true"
+                                        minlength="2"
+                                        maxlength="100"
+                                        aria-describedby="fullname-help">
+                                    </td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td><label for="email">อีเมล <font color="red">*</font></label></td>
+                                    <td><input class="box"
+                                        type="email"
+                                        id="email"
+                                        name="email"
+                                        required
+                                        aria-required="true"
+                                        pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
+                                        aria-describedby="email-help">
+                                    </td>
+                                    <td><small id="email-help">ตัวอย่าง: example@domain.com</small></td>
+                                </tr>
+                                <tr>
+                                    <td><label for="tel">เบอร์โทรศัพท์</label></td>
+                                    <td><input class="box"
+                                        type="tel"
+                                        id="tel"
+                                        name="tel"
+                                        pattern="[0-9]{10}"
+                                        aria-describedby="tel-help">
+                                        
+                                    </td>
+                                    <td><small id="tel-help">กรอกหมายเลข 10 หลัก ไม่ต้องมีขีด เช่น 0812345678</small></td>
+                                </tr>
+                                <tr>
+                                    <td><label for="message">ข้อความ <font color="red">*</font></label></td>
+                                    <td><textarea class="box"
+                                        id="message"
+                                        name="message"
+                                        required
+                                        aria-required="true"
+                                        minlength="10"
+                                        rows="5"
+                                        aria-describedby="message-help"></textarea>
+                                    </td>
+                                    <td><small id="message-help">กรุณากรอกข้อความอย่างน้อย 10 ตัวอักษร</small></td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td><button class="submit-button"
+                                        type="submit"
+                                        aria-label="ส่งข้อความ">
+                                        ส่งข้อความ</button>
+                                    </td>
+                                </tr>
+                            </form>
+                        </table>
+                    </div>
+                </center>
+            </section>
+            <section>
+                <br>
+                <div>
+                    <b><a class="a-bigger">ติดต่อ</a></b><br>
+                    <a>อีเมล : 66160001@go.buu.ac.th</a><br>
+                    <a>เบอร์โทรศัพท์ : 085-232-9622</a><br>
+                    <a>ที่อยู่ : 169 ถนน ลงหาดบางแสน ตำบลแสนสุข อำเภอเมืองชลบุรี ชลบุรี 20131</a>
+                </div>
+            </section>
+        </main>
+        <footer class="footer">
+            &copy; 2024 Travel In Pathum Thani
+        </footer>
+        <script src="js/script.js"></script>
+    </body>
+</html>
