@@ -154,6 +154,32 @@ hr {
     object-fit: cover; 
 } 
 
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container-contact {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    padding: 50; 
+    box-sizing: border-box; 
+    border: 5px solid #7fc3ff; 
+    border-radius: 8px;
+    height: 330px;
+    width: 650px;
+}
+.box {
+    display: flex; 
+    box-sizing: border-box; 
+    border: 2px solid #7fc3ff; 
+    border-radius: 8px;
+}
+
 .footer {
     background: linear-gradient(45deg, #3544ca, #55aee5);
     color: white;
